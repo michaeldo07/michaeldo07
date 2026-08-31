@@ -1,6 +1,6 @@
 # Hi, I'm Michael Do 👋
 
-Computer Science student at the **Georgia Institute of Technology** - concentration in Intelligence and Systems & Architecture, expected Graduation: May 2028. Stamps President's Scholar and John H. Martinson Honors Program student. I work at the intersection of **machine learning and systems**: compressing language models, building on-device ML, and modeling how AI systems fail and recover.
+Computer Science student at the **Georgia Institute of Technology** - concentration in Artificial Intelligence and Systems & Architecture, expected Graduation: May 2028. Stamps President's Scholar and John H. Martinson Honors Program student. I work at the intersection of **machine learning and systems**: compressing language models, building on-device ML, and modeling how AI systems fail and recover.
 
 ---
 
