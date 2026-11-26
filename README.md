@@ -1,40 +1,26 @@
-# Hi, I'm Michael Do 👋
+# Hey, I’m Michael Do
 
-Computer Science student at the **Georgia Institute of Technology** - concentration in Artificial Intelligence and Systems & Architecture, expected Graduation: May 2028. Stamps President's Scholar and John H. Martinson Honors Program student. I work at the intersection of **machine learning and systems**: compressing language models, building on-device ML, and modeling how AI systems fail and recover.
+I’m a CS student at Georgia Tech studying Artificial Intelligence and Systems & Architecture. I’m a Stamps President’s Scholar and part of the John H. Martinson Honors Program.
 
----
+Right now I’m building a tool to see what coding agents do between their first wrong answer and a passing solution. I’ve also helped build an ASL app that runs entirely on an iPhone and a talking bear that helps kids explain how they feel before a doctor’s visit.
 
-## 💼 Experience
+[Website](https://michaeldo07.github.io/) · [LinkedIn](https://www.linkedin.com/in/michaeldo07/) · [Hugging Face](https://huggingface.co/KobeBeef67) · [Email](mailto:mdo60@gatech.edu)
 
-**Software Engineering Intern** · _Project Synergy_ · Jun-Jul 2026 Built an interactive Python/Pygame application with a 2D grid-based GUI - real-time coordinate validation, collision detection, and dynamic state visualization within an Agile workflow. Python Pygame Git Linux
+## Projects
 
-**Software Engineering Intern** · _Georgia Tech Research Institute_ · Jun-Jul 2025 Engineered a distributed embedded control system: Lua on a microcomputer paired with C++ firmware on a dual-microcontroller rig to coordinate robotic motion and AI-enabled image acquisition, plus a coordinate-based control pipeline returning sensor results for real-time spatial mapping. C++ Lua Computer Vision
+- **[RecoverFlow](https://github.com/michaeldo07/recoverflow)** — A Python evaluator that records each attempt an LLM coding agent makes to fix its code. It keeps the tests used for feedback separate from hidden tests so I can study how agents recover. I’m exploring hidden semi-Markov models for that analysis.
+- **[Bear With Me](https://bearwithme.tech/demo)** — My team built a pediatric intake prototype with Next.js, xAI, and Supabase. Kids talk to an animated bear, parents answer separately, and clinicians get a one-page brief that shows where the two accounts differ. **1st place, Web Development Track at HackGT 13.**
+- **[Signify](https://github.com/rainsyy/Signify-App-Repository)** — I helped train a temporal convolutional network on 80,000+ sign recordings and deploy it on iOS with Swift and Core ML. [2024 Congressional App Challenge winner, Georgia’s 8th District.](https://www.congressionalappchallenge.us/24-ga08/)
+- **[Deep Learning Playground](https://github.com/DataScience-GT/Deep-Learning-Playground)** — I’m working with Data Science at Georgia Tech on a browser app where students can upload a dataset and assemble a PyTorch model by dragging layers into place.
 
-**Software Engineering Intern** · _Georgia Tech Research Institute_ · Jun-Jul 2024 Developed a web-connected autonomous CNC system using Lua, soil-moisture sensors, and scheduled controls to automate monitoring and resource delivery. Lua IoT
+## Papers
 
-**Artificial Intelligence Research Intern** · _Middle Georgia State University, School of Computing_ · Jan 2025-Jul 2026 Optimized LLaMA-based code-generation models through fine-tuning and structured pruning, reducing compute ~20% for edge deployment; built a Python/NumPy simulation framework using eigenvalue decomposition and steady-state analysis to identify long-term failure points in autonomous state transitions. Python TensorFlow NumPy Pandas Jupyter
+- **[Performance and Efficiency Trade-Offs in Fine-Tuned and Pruned Large Language Models](https://iacis.org/iis/2026/2_iis_2026_669-684.pdf)** — Co-author, *Issues in Information Systems*. Presented at the 66th IACIS Annual Conference. At 20% structured pruning, LLaMA retained 97.6% of its baseline Pass@k code-generation performance.
+- **[Human–Robot Interactive Performance Analysis with Enhanced Metacognition](https://doi.org/10.1080/08874417.2026.2637477)** — First author, *Journal of Computer Information Systems*. I analyzed Markov chain simulations where metacognitive decision-making reduced modeled errors by 59.29% and increased execution time by 18.67%.
 
-## 📄 Publications
+## A few other things I’ve worked on
 
-- [**Human-Robot Interactive Performance Analysis with Enhanced Metacognition**](https://www.tandfonline.com/doi/full/10.1080/08874417.2026.2637477) - *First Author, Journal of Computer Information Systems.* Markov-chain simulations comparing human–robot systems with and without metacognitive decision-making, cutting modeled errors by 59.29%.
-- **Performance and Efficiency Trade-Offs in Fine-Tuned and Pruned Large Language Models** - *Co-Author, 66th IACIS Annual Conference.* Identified compression regimes that preserved 97.6% of baseline Pass@k performance at 20% structured pruning.
-
-## 🔬 Research & Projects
-
-- **Signify: AI American Sign Language Translator** &nbsp;[🏆 *1st Place, Congressional App Challenge.*](https://www.congressionalappchallenge.us/24-ga08/) An iOS app that recognizes ASL on-device: a Temporal Convolutional Network trained on 80,000+ recordings, deployed with Swift + Core ML over 89-landmark MediaPipe features.
-- **RecoverFlow** - process-level reliability modeling for LLM coding agents, framing error recovery as a Hidden Semi-Markov process (In Progress).
-- **LLaMA Fine-Tuning & Pruning** - pruning and fine-tuning LLaMA for efficient code generation, cutting compute ~20% for edge deployment.
-
-## 🧰 Tech
-
-**Languages:** Python · Java · C++ · JavaScript · Lua · Swift · SQL · HTML/CSS
-
-**ML / Frameworks:** PyTorch · Core ML · MediaPipe · scikit-learn · PEFT · Hugging Face · OpenCV
-
-**Tools:** Git · Linux · Xcode · Jupyter · AWS
-
-## 📫 Reach me
-
-- **LinkedIn:** [michaeldo07](https://linkedin.com/in/michaeldo07)
-- **Email:** mdo60@gatech.edu
-- **Hugging Face:** [@KobeBeef67](https://huggingface.co/KobeBeef67)
+- At **GTRI**, I wrote Lua and C++ to coordinate a robot’s motion and camera capture and helped turn field sensor readings into maps.
+- At **Robins Air Force Base**, I built a Python and Pygame maritime simulator with probabilistic vessel placement and grid validation.
+- At **Middle Georgia State University**, I fine-tuned and pruned LLaMA models and built a NumPy simulator to study long-run failure patterns.
+- I started **NextGen Coders** and taught Python and JavaScript through workshops and projects that reached 1,200+ students.
